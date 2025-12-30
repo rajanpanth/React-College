@@ -8,7 +8,7 @@ const Rajan = () => {
   return (<div>
     <h1 className={customcss.title}>Training of react</h1>
     <p>This is my first React component!</p>
-    <img className={customcss.myimage} src={image} alt="Walpaper" />
+    <img className={count %2 ==0 ? customcss.myimage: customcss.new_style} src={image} alt="Walpaper" />
     <button onClick={()=>{
       setCount(count+1)
     }}>Count : {count}  </button>

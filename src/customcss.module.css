@@ -9,3 +9,9 @@
     border: 5px solid black;
     border-radius: 15px;
 }
+.new_style{
+    border-radius: 50%;
+    border: 3px dashed blue;
+    height: 500px;
+    width: 400px;
+}
