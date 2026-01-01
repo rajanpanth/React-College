@@ -1,0 +1,32 @@
+// this aleways refers to the nearest object or instant
+
+let obj1 = {
+    price: 400,
+    fruitName: "apple",
+    weight: 2,
+    unit: "kg",
+    totalCost: function () {
+        let totalPrice = this.price * this.weight;
+        console.log("inside total cost function: ", totalPrice)
+    },
+    displayFruitName: () => {
+        //this keyboard will never exist in the arrow function
+        console.lof("fruit name is: ", this.fruitName)
+    }
+}
+
+//calling totalCost function
+obj1.totalCost()
+
+//assigning totalCost function a variable here when we call the function through variable, this will be lost.
+
+let myNewFunction = obj1.totalCost
+myNewFunction()
+
+//using bind to preserve this keyboard
+let myNewFunctionwithbind = obj1.totalCost.bind(obj1)
+myNewFunctionwithbind()
+
+
+//calling arrow function
+obj1.displayFruitName()
