@@ -37,4 +37,4 @@ function Third(){
 }
 
 export default Home
-export {First, Third}
+export {First, Third, Second}
