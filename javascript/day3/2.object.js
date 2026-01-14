@@ -56,3 +56,14 @@ console.log("\nIterating over entries using forEach with destructuring:");
 entries.forEach(([key, value]) => {
     console.log(`${key}: ${value}`);
 });
+
+
+let response = async function data(){
+    axios.get(sdsjhcvjwdlw, {
+        res.json{
+           
+            message: ""
+        }
+         let data = response.data.name;
+    })
+}
