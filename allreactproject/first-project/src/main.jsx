@@ -4,11 +4,17 @@ import './index.css'
 import App from './App.jsx'
 import Home from './Home.jsx'
 import {Third} from './Home.jsx'
+import EventHandling from './eventHandling/EventHandling.jsx'
+import Profile from './pages/Profile.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <App />
     <Home></Home>
-      <Third />
+      <Third /> */}
+      <Profile name = "rajan" age = {20} address = {"kathmandu"}/>
+   <EventHandling/>
+
   </StrictMode>,
 )
