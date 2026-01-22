@@ -36,5 +36,13 @@ function Third(){
     )
 }
 
+function Greeting({name, last}){
+    return (
+        <div>
+            <h4>"hello its me  " {name} {last} </h4>
+        </div>
+    )
+}
+
 export default Home
-export {First, Third, Second}
+export {First, Greeting, Third, Second}
