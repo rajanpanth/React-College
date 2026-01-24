@@ -1,5 +1,5 @@
-let CustomButton = ({title, onClickCustomButton})=>{
-    return(
+let CustomButton = ({ title, onClickCustomButton }) => {
+    return (
         <div>
             <button onClick={onClickCustomButton}>
                 {title}

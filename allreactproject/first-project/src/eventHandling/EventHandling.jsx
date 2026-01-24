@@ -24,11 +24,11 @@ onClick : ()=>()
 }
     */
 
-let handleOnchange = (event) => {
-    console.log("input changed");
-// console.log(event.target.placeholder)
-console.log(event.target.value)
-}
+    let handleOnchange = (event) => {
+        console.log("input changed");
+        // console.log(event.target.placeholder)
+        console.log(event.target.value)
+    }
     return (
         <div>
             <h1>Event Handling Test</h1>
