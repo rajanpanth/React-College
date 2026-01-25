@@ -7,6 +7,8 @@ import { Third } from './Home.jsx'
 import EventHandling from './eventHandling/EventHandling.jsx'
 import Profile from './pages/Profile.jsx'
 import DaySix from './Day-6/DaySix.jsx'
+import Authenticate from './auth/Dashboard.jsx'
+import Login from './auth/login.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -14,10 +16,11 @@ createRoot(document.getElementById('root')).render(
     {/* <App />
     <Home></Home>
       <Third /> */}
-    <Profile name="rajan" age={20} address={"kathmandu"} />
+    {/* <Profile name="rajan" age={20} address={"kathmandu"} />
     <EventHandling />
     <Greeting name="Rajan" last="Pantha"></Greeting>
-    <DaySix />
+    <DaySix /> */}
+    <Authenticate />
 
   </StrictMode>,
 )
