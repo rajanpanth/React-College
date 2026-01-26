@@ -9,6 +9,9 @@ import Profile from './pages/Profile.jsx'
 import DaySix from './Day-6/DaySix.jsx'
 import Authenticate from './auth/Dashboard.jsx'
 import Login from './auth/login.jsx'
+import AuthPage from './auth/AuthPage.jsx'
+import Tasks from './tasks/AllTask.jsx'
+
 
 
 createRoot(document.getElementById('root')).render(
@@ -20,7 +23,10 @@ createRoot(document.getElementById('root')).render(
     <EventHandling />
     <Greeting name="Rajan" last="Pantha"></Greeting>
     <DaySix /> */}
-    <Authenticate />
-
+    {/* <AuthPage isAuthenticated={false}/>
+        <br></br>
+    <b>After Login....</b>
+    <AuthPage isAuthenticated={true}/> */}
+   <Tasks/>
   </StrictMode>,
 )
